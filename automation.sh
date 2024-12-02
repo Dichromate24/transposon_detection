@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# compiled_Data directory  = has ALL the compressed data in .tar
-# reference_data directory  = has the reference genome in .fa (saaCer3.fa and ty5_6p.fa)
+# compiled_Data directory  = add the compressed read data here (in .tar)
+# reference_genome directory  = has the reference genome in .fa (saaCer3.fa and ty5_6p.fa)
 # src directory = will include this automation.sh script
 
 # AT THE END THERE WILL BE TWO NEW DIRECTORIES FOR RESULTS
