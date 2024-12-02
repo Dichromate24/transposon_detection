@@ -3,8 +3,8 @@ Developed and implemented a fully automated Bash pipeline for analyzing high-thr
 Automation.sh workflow:
 
 Index yeast (sacCer3) and transposon reference genomes using bowtie2-build.
-Align paired-end sequencing reads to yeast and transposon references with bowtie2
-Access read quality of raw FASTQ files via FastQC
+Align paired-end sequencing reads to yeast and transposon references with bowtie2.
+Access read quality of raw FASTQ files via FastQC.
 Use samtools to filter singleton reads aligning uniquely to yeast and transposon genomes for transposon-specific analysis.
 
 Convert aligned reads to BED format using bedtools and generated genome coverage files for visualization and interpretation.
